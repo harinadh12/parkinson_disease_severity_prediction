@@ -1,16 +1,15 @@
 # *Parkinson_disease_severity_prediction*
 
 ## Table of Contents
-1. [Introduction](#)
-2. [Related Work](#)
-3. [Data Understanding and Experimental Setup](#)
-4. [Data Exploration](#)
-5. [Data Cleaning](#)
-6. [Feature Transformation](#)
-7. [Feature Selection](#)
-8. [Model Training and Selection](#)
-9. [Model Selection and Hyper Parameter Tuning for Selected Model](#)
-10.[Results and Conclusion](#)
+1. [Introduction](#introduction)
+2. [Related Work](#related-work)
+3. [Data Understanding and Experimental Setup](#data-understanding-and-experimental-setup)
+4. [Data Exploration](#data-exploration-eda)
+5. [Feature Transformation](#feature-transformation)
+6. [Feature Selection](#feature-selection-mechanisms)
+7. [Model Training and Selection](#model-selection)
+8. [Model Selection and Hyper Parameter Tuning for Selected Model](#)
+9. [Results and Conclusion](#conclusion-and-future-work)
 
 ### Introduction
 Parkinson Disease (PD) is the second most common neurodegenerative disease after Alzheimer's disease. Population prevalence of PD increases from about 1% at age 60 to 4% by age 80. Parkinson's disease (PD) is a type of movement and non-movement disorder. 
@@ -129,14 +128,16 @@ PCA is linear dimensionality reduction technique using singular value decomposit
 
 <img src="./viz_plots/selected_features_model_performance_motor_updrs_metrics.png">
 
-### Extra Tree Regressor Results - With Feature Selection
+
+### Conclusion and Future work
+
+#### Extra Tree Regressor Results - With Feature Selection
 
 |Mean Absolute Error|Root Mean Square Error|R2 Score|Explained Variance|
 |:----|:----|:----|:----|
 |Total_UPDRS|0.743245848|1.613987611|0.977794316|0.977849405|
 |Motor_UPDRS|0.604390726|1.279626524|0.975596608|0.975724054|
 
-### Conclusion and Future work
 The results support the hypothesis that the vocal features can be used to predict the UPDRS scores. The results reveal interesting insights about existing medical practices. The results show that the vocal features can be used to predict the UPDRS scores. Detecting early stage of Parkinson’s Disease would highly impact for early diagnosis which leads to address early medications for improving the quality of the patient’s life. 
 
 The limitation was that the dataset which are used in this project was conducted on 42 patients, if there was more data collected from various kinds of patients, who were exposed to multiple diseases and also Parkinson’s Disease would give different attributes and observations. Though the UPDRS scores are linearly interpolated with the assumption of progression of disease being linear over time is not a robust assumption and may be more dynamic in practice.
