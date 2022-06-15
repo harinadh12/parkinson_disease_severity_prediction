@@ -103,34 +103,42 @@ i.	PPE
 PCA is linear dimensionality reduction technique using singular value decomposition (SVD) of data and projects it to lower dimensional space and tries to capture the variance in original data using minimal number of variables.
 
 <img src="./viz_plots/parkinson_plot.png" >
-
 *<center>Fig. PCA vs Explained Variance</center>*
 
+### Model Selection
+
+#### Models Performance on Test set with Original Features
+
+<img src="./viz_plots/original_features_model_performance_total_updrs.png">
+
+<img src="./viz_plots/original_features_model_performance_total_updrs_metrics.png">
+
+<img src="./viz_plots/original_features_model_performance_motor_updrs.png">
+
+<img src="./viz_plots/original_features_model_performance_motor_updrs_metrics.png">
 
 
+### Model Results using Selected Features from RFE
 
+<img src="./viz_plots/selected_features_model_performance_total_updrs.png">
 
+<img src="./viz_plots/selected_features_model_performance_total_updrs_metrics.png">
 
+<img src="./viz_plots/selected_features_model_performance_motor_updrs.png">
 
+<img src="./viz_plots/selected_features_model_performance_motor_updrs_metrics.png">
 
+### Extra Tree Regressor Results - With Feature Selection
 
+|Mean Absolute Error|Root Mean Square Error|R2 Score|Explained Variance|
+|:----|:----|:----|:----|
+|Total_UPDRS|0.743245848|1.613987611|0.977794316|0.977849405|
+|Motor_UPDRS|0.604390726|1.279626524|0.975596608|0.975724054|
 
+### Conclusion and Future work
+The results support the hypothesis that the vocal features can be used to predict the UPDRS scores. The results reveal interesting insights about existing medical practices. The results show that the vocal features can be used to predict the UPDRS scores. Detecting early stage of Parkinson’s Disease would highly impact for early diagnosis which leads to address early medications for improving the quality of the patient’s life. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The limitation was that the dataset which are used in this project was conducted on 42 patients, if there was more data collected from various kinds of patients, who were exposed to multiple diseases and also Parkinson’s Disease would give different attributes and observations. Though the UPDRS scores are linearly interpolated with the assumption of progression of disease being linear over time is not a robust assumption and may be more dynamic in practice.
 
 
 
