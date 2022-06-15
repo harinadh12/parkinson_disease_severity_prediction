@@ -3,13 +3,14 @@
 ## Table of Contents
 1. [Introduction](#)
 2. [Related Work](#)
-3. [Data Exploration](#)
-4. [Data Cleaning](#)
-5. [Feature Normalization](#)
-6. [Feature Selection](#)
-7. [Model Training](#)
-8. [Model Selection and Hyper Parameter Tuning](#)
-9. [Results and Conclusion](#)
+3. [Data Understanding and Experimental Setup](#)
+4. [Data Exploration](#)
+5. [Data Cleaning](#)
+6. [Feature Transformation](#)
+7. [Feature Selection](#)
+8. [Model Training and Selection](#)
+9. [Model Selection and Hyper Parameter Tuning for Selected Model](#)
+10.[Results and Conclusion](#)
 
 ### Introduction
 Parkinson Disease (PD) is the second most common neurodegenerative disease after Alzheimer's disease. Population prevalence of PD increases from about 1% at age 60 to 4% by age 80. Parkinson's disease (PD) is a type of movement and non-movement disorder. 
