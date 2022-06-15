@@ -65,7 +65,7 @@ From the above figure, we can see that total number of variables are 22 where 2 
 #### *F-Test:*
 
 <p float="left">
-<img src="./viz_plots/F_Test_total.png" width=200><img src="./viz_plots/F_Test_motor.png" width=200>
+<img src="./viz_plots/F_Test_total.png" width=400><img src="./viz_plots/F_Test_motor.png" width=400>
 </p>
 
 
@@ -76,7 +76,7 @@ From the above figure, we can see that total number of variables are 22 where 2 
 The k best characteristics are those that result in the most mutual information. This metric is based on information theory and evaluates the reduction of uncertainty for a random variable while considering the value of another random variable that is known. In contrast to F-test, this test measures dependency of individual feature w.r.t response variable and captures complex non-linear relationship between individual feature and response variable.
 
 <p float="left">
-<img src="./viz_plots/MIR_test_total.png" width=200><img src="./viz_plots/MIR_Test_motor.png" width=200>
+<img src="./viz_plots/MIR_test_total.png" width=400><img src="./viz_plots/MIR_Test_motor.png" width=400>
 </p>
 
 *<center>Fig. Mutual Information Feature Selection w.r.t Total and Motor UPRDS</center>*
