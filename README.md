@@ -65,7 +65,7 @@ From the above figure, we can see that total number of variables are 22 where 2 
 #### *F-Test:*
 
 <p float="left">
-<img src="./viz_plots/F_Test_total.png" width=200><img src="./viz_plots/F_test_motor.png" width=200>
+<img src="./viz_plots/F_Test_total.png" width=200><img src="./viz_plots/F_Test_motor.png" width=200>
 </p>
 
 
